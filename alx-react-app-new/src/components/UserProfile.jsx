@@ -9,7 +9,9 @@ const UserProfile = (prop) => {
       <p>
         Age: <span style={{ fontWeight: "bold" }}>{prop.age}</span>
       </p>
-      <p>Bio: {prop.bio}</p>
+      <p>
+        Bio: <span style={{ color: "green" }}>{prop.bio}</span>
+      </p>
     </div>
   );
 };

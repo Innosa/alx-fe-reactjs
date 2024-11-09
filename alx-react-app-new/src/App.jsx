@@ -1,5 +1,6 @@
 // import React from "react";
-import UserProfile from "./components/UserProfile.jsx";
+// import UserProfile from "./components/UserProfile.jsx";
+import Counter from "./components/Counter";
 // import Header from "./components/Header";
 // import MainContent from "./components/MainContent";
 // import Footer from "./components/Footer";
@@ -14,12 +15,16 @@ function App() {
 
   return (
     <>
-      <div>
+      {/* <div>
         <UserProfile
           name="Innocent"
           age="50"
           bio="Loves hiking and photography"
         />
+      </div> */}
+
+      <div>
+        <Counter />
       </div>
       {/* <div>
         <WelcomeMessage />
