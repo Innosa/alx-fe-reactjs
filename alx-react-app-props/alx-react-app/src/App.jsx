@@ -1,8 +1,7 @@
 // import React from "react";
-// eslint-disable-next-line no-unused-vars
-import { UserContext } from "./context/UserContext.js";
-import UserProvider from "./UserContext";
-import ProfilePage from "./ProfilePage";
+// import UserProvider from "./UserContext";
+import ProfilePage from "./components/ProfilePage.jsx";
+import { UserProvider } from "./context/UserContext.js";
 // import UserProfile from "./components/UserProfile.jsx";
 // import Header from "./components/Header";
 // import MainContent from "./components/MainContent";
@@ -26,7 +25,6 @@ const App = () => {
     </UserProvider>
   );
 };
-
 export default App;
 
 // function App() {
