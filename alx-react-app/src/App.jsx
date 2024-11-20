@@ -1,7 +1,8 @@
 // import React from "react";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import UserProfile from "./components/UserProfile.jsx";
+// import Header from "./components/Header";
+// import MainContent from "./components/MainContent";
+// import Footer from "./components/Footer";
 // import WelcomeMessage from ".components/WelcomeMessage.jsx";
 // import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
@@ -14,9 +15,11 @@ function App() {
   return (
     <>
       <div>
-        <Header />
-        <MainContent />
-        <Footer />
+        <UserProfile
+          name="Innocent"
+          age="50"
+          bio="Loves hiking and photography"
+        />
       </div>
       {/* <div>
         <WelcomeMessage />
