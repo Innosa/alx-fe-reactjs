@@ -3,7 +3,9 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "/images/spaghetti.jpg",
+    "ingredients": ["200g spaghetti", "100g ground beef", "50g tomato sauce"],
+    "instructions": "Boil spaghetti. Cook beef. Mix with sauce."
   },
   {
     "id": 2,
