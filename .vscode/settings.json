@@ -1,0 +1,4 @@
+{
+  "prettier.resolveGlobalModules": false,
+  "outline.showModules": true
+}

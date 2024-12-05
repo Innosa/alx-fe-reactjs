@@ -1,5 +1,6 @@
-import { useRecipeStore } from "../stores/recipeStore";
+import { useRecipeStore } from "./recipeStore";
 
+// eslint-disable-next-line react/prop-types
 const DeleteRecipeButton = ({ recipeId }) => {
   const deleteRecipe = useRecipeStore((state) => state.deleteRecipe);
 

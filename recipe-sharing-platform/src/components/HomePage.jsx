@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import data from "../data.json"; // Adjust the path based on your folder structure
 
 const HomePage = () => {

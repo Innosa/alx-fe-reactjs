@@ -3,7 +3,8 @@
 // import viteLogo from '/vite.svg'
 // import Card from "./components/card";
 // import responsiveTypography from "./components/responsive_typography.jsx";
-import ResponsiveLayout from "./components/responsive_layerout.jsx";
+// import ResponsiveLayout from "./components/responsive_layerout.jsx";
+import "./index.css";
 import "./App.css";
 
 function App() {
@@ -17,10 +18,12 @@ function App() {
       {/* <div className="min-h-screen flex justify-center items-center bg-gray-50">
         <responsiveTypography />
       </div> */}
-      {/* <div className="min-h-screen flex justify-center items-center bg-gray-50">
+      {/* <div className="min-h-screen flex justify-center items-center bg-gray-50">b 
         <responsiveTypography />
       </div> */}
-      <ResponsiveLayout />
+      {/* <ResponsiveLayout /> */}
+
+      <div className="bg-gray-100">This is a React app with tailwind</div>
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
