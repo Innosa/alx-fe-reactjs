@@ -34,12 +34,12 @@ export default [
         { allowConstantExport: true }
       ]
     }
-    // env: {
-    //   browser: true,
-    //   node: true
-    // },
-    // globals: {
-    //   process: "readonly"
-    // },
+    env: {
+      browser: true,
+      node: true
+    },
+    globals: {
+      process: "readonly"
+    },
   }
 ];
