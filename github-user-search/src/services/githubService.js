@@ -1,9 +1,9 @@
 import axios from "axios";
 
-// const GITHUB_API_KEY = process.env.REACT_APP_GITHUB_API_KEY;
+const GITHUB_API_KEY = process.env.REACT_APP_GITHUB_API_KEY;
 const GITHUB_API_BASE_URL = "https://api.github.com";
 
-export const fetchGithubData = async (endpoint) => {
+export const fetchUserData = async (endpoint) => {
   try {
     const response = await axios.get(`${GITHUB_API_BASE_URL}/${endpoint}`, {
       headers: {
@@ -16,3 +16,5 @@ export const fetchGithubData = async (endpoint) => {
     throw error;
   }
 };
+
+export default fetchUserData;

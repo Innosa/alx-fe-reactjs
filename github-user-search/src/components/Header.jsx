@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div>
-      <h1>Search for header</h1>;
+      <h1>Header</h1>
     </div>
   );
 };
